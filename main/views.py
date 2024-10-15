@@ -6,6 +6,3 @@ from .serializers import AlunoSerializer
 class AlunoViewSet(viewsets.ModelViewSet):
     queryset = Aluno.objects.all()
     serializer_class = AlunoSerializer
-
-
-
